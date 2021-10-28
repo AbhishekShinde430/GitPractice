@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.application'
+    id 'kotlin-android'
 }
 
 android {
@@ -19,10 +20,10 @@ android {
 
     signingConfigs{
         debug {
-            keyAlias 'chameleon'
-            keyPassword 'sRJNCtv2'
-            storeFile file('/Users/pratikBurte/Squareland_keystore/chameleon-release.keystore')
-            storePassword 'fv4Umszj'
+            keyAlias 'abhi'
+            keyPassword 'abhi@123'
+            storeFile file('D:\\Android Data\\keystore\\keystore.jks')
+            storePassword 'abhi@123'
 
             v2SigningEnabled true
         }
@@ -110,6 +111,7 @@ dependencies {
 // for generating default ui of exoplayer
 
     implementation 'com.google.android.exoplayer:exoplayer-ui:r2.4.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
