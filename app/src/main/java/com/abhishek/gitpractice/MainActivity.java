@@ -44,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
 
 */
 
-        Intent it=new Intent(MainActivity.this,kotlinActivity.class);
-        startActivity(it);
+      /*  Intent it=new Intent(MainActivity.this,kotlinActivity.class);
+        startActivity(it);*/
 
 
 
