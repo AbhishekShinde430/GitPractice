@@ -9,6 +9,7 @@ import java.util.*
 class kotlinActivity : AppCompatActivity() {
 
     val testVariable:String? =null
+    val sbc="";
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
